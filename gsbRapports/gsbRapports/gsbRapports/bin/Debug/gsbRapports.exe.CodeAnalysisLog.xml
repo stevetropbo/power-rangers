@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsbRapports\bin\Debug\gsbRapports.exe">
+   <Modules>
+    <Module Name="gsbrapports.exe">
+     <Namespaces>
+      <Namespace Name="gsbRapports">
+       <Types>
+        <Type Name="famille" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsbRapports" File="famille.cs" Line="18">'famille.famille()' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;famille..ctor()&#xD;&#xA;famille.set_medicaments(ICollection&lt;medicament&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#medicaments" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="medecin" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsbRapports" File="medecin.cs" Line="18">'medecin.medecin()' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;medecin..ctor()&#xD;&#xA;medecin.set_rapports(ICollection&lt;rapport&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rapports" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="medicament" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsbRapports" File="medicament.cs" Line="18">'medicament.medicament()' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;medicament..ctor()&#xD;&#xA;medicament.set_offrirs(ICollection&lt;offrir&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#offrirs" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="rapport" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsbRapports" File="rapport.cs" Line="18">'rapport.rapport()' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;rapport..ctor()&#xD;&#xA;rapport.set_offrirs(ICollection&lt;offrir&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#offrirs" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="visiteur" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsbRapports" File="visiteur.cs" Line="18">'visiteur.visiteur()' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;visiteur..ctor()&#xD;&#xA;visiteur.set_rapports(ICollection&lt;rapport&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#rapports" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="gsbRapports.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2019-04-04 14:20:24Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Évitez le recours à du code privé non appelé</Name>
+   <Description>Il existe du code non appelé qui n'est pas visible de l'extérieur et ne constitue pas un point d'entrée connu du runtime. Si cette violation provoque une erreur, signalez le problème à l'équipe Visual Studio Code Analysis.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227">
+   <Name>Les propriétés de collection doivent être en lecture seule</Name>
+   <Description>Les propriétés qui retournent des collections doivent être en lecture seule afin que les utilisateurs ne puissent pas entièrement remplacer le magasin de stockage. Les utilisateurs peuvent toujours modifier le contenu de la collection en appelant des méthodes appropriées dans la collection même. Notez que la classe XmlSerializer bénéficie d'une prise en charge spéciale pour la désérialisation des collections en lecture seule. Pour plus d'informations, consultez la présentation de XmlSerializer.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182327.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>N'appelez pas de méthodes substituables dans les constructeurs</Name>
+   <Description>Vous ne devez pas appeler des méthodes virtuelles définies dans la classe à partir de constructeurs. Si une classe dérivée a remplacé la méthode, la version de la classe dérivée est appelée (avant le constructeur de classe dérivée).</Description>
+   <Resolution Name="Default">{0} contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Catégorie</String>
+  <String Key="Certainty">Certitude</String>
+  <String Key="CollapseAll">Réduire tout</String>
+  <String Key="CheckId">ID de contrôle</String>
+  <String Key="Error">Erreur</String>
+  <String Key="Errors">erreur(s)</String>
+  <String Key="ExpandAll">Développer tout</String>
+  <String Key="Help">Aide</String>
+  <String Key="Line">Ligne</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Emplacement non stocké dans le fichier Pdb]</String>
+  <String Key="Project">Projet</String>
+  <String Key="Resolution">Résolution</String>
+  <String Key="Rule">Règle</String>
+  <String Key="RuleFile">Fichier de règles</String>
+  <String Key="RuleDescription">Description de la règle</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">État</String>
+  <String Key="Target">Cible</String>
+  <String Key="Warning">Avertissement</String>
+  <String Key="Warnings">avertissement(s)</String>
+  <String Key="ReportTitle">Rapport d'analyse du code</String>
+ </Localized>
+</FxCopReport>

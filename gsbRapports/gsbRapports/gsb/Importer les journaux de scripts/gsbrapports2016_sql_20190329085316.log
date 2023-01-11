@@ -1,0 +1,10 @@
+29/03/2019 09:53:16	Ce journal contient des informations sur l'importation du script 'gsbrapports2016.sql' dans le projet 'gsb' sur l'ordinateur 'PC-HP01' par l'utilisateur 'christophe.
+29/03/2019 09:53:16	Début de l'importation du fichier : C:\Users\christophe\Documents\www\wwwArchive\gsbrapports2016.sql 
+29/03/2019 09:53:16	Nom de fichier C:\Users\christophe\Documents\www\wwwArchive\gsbrapports2016.sql (taille : 279269)
+29/03/2019 09:53:16	Analyse du script d'importation
+29/03/2019 09:53:16	Nombre total de lots dans le script : 1
+29/03/2019 09:53:16	Nombre total d'instructions dans le script : 0
+29/03/2019 09:53:16	Le script a été correctement importé dans le projet.
+29/03/2019 09:53:17	Dans le script que vous avez fourni à l'opération d'importation, une ou plusieurs instructions n'ont pas été totalement comprises. Elles ont été déplacées vers le fichier ScriptsIgnoredOnImport.sql. Pour plus d'informations, examinez le contenu du fichier.
+29/03/2019 09:53:17	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsb\Importer les journaux de scripts\gsbrapports2016_sql_20190329085316.log.
+29/03/2019 09:53:17	Cliquez sur Terminer pour continuer...

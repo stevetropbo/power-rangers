@@ -1,0 +1,101 @@
+29/03/2019 09:55:39	Ce journal contient des informations sur l'importation du schéma dans le projet 'gsb' sur l'ordinateur 'PC-HP01' par l'utilisateur 'christophe'.
+29/03/2019 09:55:39	L'importation du schéma de base de données a commencé.
+29/03/2019 09:56:03	Collecte des messages d'erreur
+29/03/2019 09:56:03	Collecte des fournisseurs de chiffrement
+29/03/2019 09:56:03	Collecte des informations d'identification
+29/03/2019 09:56:03	Collecte des connexions
+29/03/2019 09:56:03	Collecte des rôles serveur
+29/03/2019 09:56:03	Collecte des appartenances aux rôles serveur
+29/03/2019 09:56:03	Collecte des serveurs liés
+29/03/2019 09:56:03	Collecte des connexions de serveur lié
+29/03/2019 09:56:03	Collecte des itinéraires
+29/03/2019 09:56:03	Collecte des DDL triggers
+29/03/2019 09:56:03	Collecte des déclencheurs chiffrés et DDL CLR
+29/03/2019 09:56:03	Collecte des notifications d'événements
+29/03/2019 09:56:03	Collecte des audits du serveur
+29/03/2019 09:56:03	Collecte des spécifications de l'audit du serveur
+29/03/2019 09:56:03	Collecte des notifications d'événements
+29/03/2019 09:56:11	Collecte des informations d'identification à la base de données
+29/03/2019 09:56:11	Collecte des options de la base de données
+29/03/2019 09:56:11	Collecte de l'option de configuration étendue à la base de données générique
+29/03/2019 09:56:11	Collecte des utilisateurs
+29/03/2019 09:56:11	Collecte des rôles
+29/03/2019 09:56:11	Collecte des rôles d'application
+29/03/2019 09:56:11	Collecte des appartenances aux rôles
+29/03/2019 09:56:11	Collecte des groupes de fichiers
+29/03/2019 09:56:11	Collecte des fichiers
+29/03/2019 09:56:11	Collecte des catalogues de recherche en texte intégral
+29/03/2019 09:56:11	Collecte des assemblys
+29/03/2019 09:56:11	Collecte des certificats
+29/03/2019 09:56:11	Collecte des clés asymétriques
+29/03/2019 09:56:11	Collecte des clés symétriques
+29/03/2019 09:56:11	Collecte des clés symétriques chiffrées
+29/03/2019 09:56:11	Collecte des clés de chiffrement de la base de données
+29/03/2019 09:56:11	Collecte des schémas
+29/03/2019 09:56:11	Collecte des collections de schémas XML
+29/03/2019 09:56:11	Collecte des types de données définis par l'utilisateur
+29/03/2019 09:56:11	Collecte des types définis par l'utilisateur
+29/03/2019 09:56:11	Collecte des types de tables
+29/03/2019 09:56:11	Collecte des clés uniques des types de tables
+29/03/2019 09:56:11	Collecte des clés primaires pour les types de tables
+29/03/2019 09:56:11	Collecte d'index pour types de tables
+29/03/2019 09:56:11	Collecte des contraintes de validation pour les types de tables
+29/03/2019 09:56:11	Collecte des contraintes par défaut pour les types de tables
+29/03/2019 09:56:11	Collecte des fonctions de partition
+29/03/2019 09:56:11	Collecte des schémas de partition
+29/03/2019 09:56:11	Collecte des fonctions
+29/03/2019 09:56:11	Collecte de fonctions cryptées
+29/03/2019 09:56:11	Collecte des agrégats
+29/03/2019 09:56:11	Collecte des procédures
+29/03/2019 09:56:11	Collecte de procédures cryptées
+29/03/2019 09:56:11	Collecte des tables
+29/03/2019 09:56:11	Collecte des clés primaires
+29/03/2019 09:56:11	Collecte des contraintes uniques
+29/03/2019 09:56:11	Collecte des clés étrangères
+29/03/2019 09:56:11	Collecte des contraintes par défaut
+29/03/2019 09:56:11	Collecte des contraintes de validation
+29/03/2019 09:56:11	Collecte des vues
+29/03/2019 09:56:11	Collecte de vues cryptées
+29/03/2019 09:56:11	Collecte des index
+29/03/2019 09:56:11	Collecte des statistiques
+29/03/2019 09:56:11	Collecte des listes de mots vides d'index de recherche en texte intégral
+29/03/2019 09:56:11	Collecte des listes de propriétés de recherche
+29/03/2019 09:56:11	Collecte des propriétés de recherche
+29/03/2019 09:56:11	Collecte des index de recherche en texte intégral
+29/03/2019 09:56:11	Collecte des index de la banque de colonnes
+29/03/2019 09:56:11	Collecte des index spatiaux
+29/03/2019 09:56:12	Collecte des index XML
+29/03/2019 09:56:12	Collecte d'index XML sélectifs
+29/03/2019 09:56:12	Collecte de déclencheurs cryptés
+29/03/2019 09:56:12	Collecte des déclencheurs
+29/03/2019 09:56:12	Collecte des déclencheurs chiffrés et DDL CLR
+29/03/2019 09:56:12	Collecte des DDL triggers
+29/03/2019 09:56:12	Collecte des synonymes
+29/03/2019 09:56:12	Collecte des valeurs par défaut
+29/03/2019 09:56:12	Collecte des liaisons UDDT de contrainte de données
+29/03/2019 09:56:12	Collecte des règles
+29/03/2019 09:56:12	Collecte des liaisons UDDT de contrainte de données
+29/03/2019 09:56:12	Collecte des types de messages
+29/03/2019 09:56:12	Collecte des files d'attente
+29/03/2019 09:56:12	Collecte des contrats
+29/03/2019 09:56:12	Collecte des services
+29/03/2019 09:56:12	Collecte des itinéraires
+29/03/2019 09:56:12	Collecte des notifications d'événements
+29/03/2019 09:56:12	Collecte des liaisons de service distant
+29/03/2019 09:56:12	Collecte des priorités de Service Broker
+29/03/2019 09:56:12	Collecte des spécifications de l'audit de la base de données
+29/03/2019 09:56:12	Collecte des signatures
+29/03/2019 09:56:12	Collection des options de compression de données
+29/03/2019 09:56:12	Collecte des types de séquences
+29/03/2019 09:56:12	Collecte des stratégies de sécurité
+29/03/2019 09:56:12	Collecter les clés de chiffrement de colonne
+29/03/2019 09:56:12	Collecte des clés principales de colonne
+29/03/2019 09:56:12	Collecte des sources de données externes
+29/03/2019 09:56:12	Collecte des formats de fichier externes
+29/03/2019 09:56:12	Collecte des tables externes
+29/03/2019 09:56:12	Collection des propriétés étendues
+29/03/2019 09:56:14	Analyse du projet à la recherche des éléments en double
+29/03/2019 09:56:14	Fin du traitement des éléments en double
+29/03/2019 09:56:14	Importation de la base de données terminée.
+29/03/2019 09:56:14	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\christophe\Documents\Visual Studio 2017\Projects\gsbRapports\gsb\Importer les journaux de schémas\gsb_20190329085539.log.
+29/03/2019 09:56:14	Cliquez sur Terminer pour continuer...

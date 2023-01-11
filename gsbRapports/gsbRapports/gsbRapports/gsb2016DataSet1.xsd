@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="gsb2016DataSet" targetNamespace="http://tempuri.org/gsb2016DataSet1.xsd" xmlns:mstns="http://tempuri.org/gsb2016DataSet1.xsd" xmlns="http://tempuri.org/gsb2016DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="gsb2016ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="gsb2016ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.gsbRapports.Properties.Settings.GlobalReference.Default.gsb2016ConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="etatTableAdapter" GeneratorDataComponentClassName="etatTableAdapter" Name="etat" UserDataComponentName="etatTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="gsb2016ConnectionString (Settings)" DbObjectName="gsb2016.etat" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, libelle FROM etat</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="fichefraisTableAdapter" GeneratorDataComponentClassName="fichefraisTableAdapter" Name="fichefrais" UserDataComponentName="fichefraisTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="gsb2016ConnectionString (Settings)" DbObjectName="gsb2016.fichefrais" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idVisiteur, mois, nbJustificatifs, montantValide, dateModif, idEtat FROM fichefrais</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="fraisforfaitTableAdapter" GeneratorDataComponentClassName="fraisforfaitTableAdapter" Name="fraisforfait" UserDataComponentName="fraisforfaitTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="gsb2016ConnectionString (Settings)" DbObjectName="gsb2016.fraisforfait" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, libelle, montant FROM fraisforfait</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lignefraisforfaitTableAdapter" GeneratorDataComponentClassName="lignefraisforfaitTableAdapter" Name="lignefraisforfait" UserDataComponentName="lignefraisforfaitTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="gsb2016ConnectionString (Settings)" DbObjectName="gsb2016.lignefraisforfait" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idVisiteur, mois, idFraisForfait, quantite FROM lignefraisforfait</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="visiteurTableAdapter" GeneratorDataComponentClassName="visiteurTableAdapter" Name="visiteur" UserDataComponentName="visiteurTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="gsb2016ConnectionString (Settings)" DbObjectName="gsb2016.visiteur" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, nom, prenom, login, mdp, adresse, cp, ville, dateEmbauche FROM visiteur</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="gsb2016DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="gsb2016DataSet" msprop:Generator_UserDSName="gsb2016DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="etat" msprop:Generator_TableClassName="etatDataTable" msprop:Generator_TableVarName="tableetat" msprop:Generator_TablePropName="etat" msprop:Generator_RowDeletingName="etatRowDeleting" msprop:Generator_RowChangingName="etatRowChanging" msprop:Generator_RowEvHandlerName="etatRowChangeEventHandler" msprop:Generator_RowDeletedName="etatRowDeleted" msprop:Generator_UserTableName="etat" msprop:Generator_RowChangedName="etatRowChanged" msprop:Generator_RowEvArgName="etatRowChangeEvent" msprop:Generator_RowClassName="etatRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fichefrais" msprop:Generator_TableClassName="fichefraisDataTable" msprop:Generator_TableVarName="tablefichefrais" msprop:Generator_TablePropName="fichefrais" msprop:Generator_RowDeletingName="fichefraisRowDeleting" msprop:Generator_RowChangingName="fichefraisRowChanging" msprop:Generator_RowEvHandlerName="fichefraisRowChangeEventHandler" msprop:Generator_RowDeletedName="fichefraisRowDeleted" msprop:Generator_UserTableName="fichefrais" msprop:Generator_RowChangedName="fichefraisRowChanged" msprop:Generator_RowEvArgName="fichefraisRowChangeEvent" msprop:Generator_RowClassName="fichefraisRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fraisforfait" msprop:Generator_TableClassName="fraisforfaitDataTable" msprop:Generator_TableVarName="tablefraisforfait" msprop:Generator_TablePropName="fraisforfait" msprop:Generator_RowDeletingName="fraisforfaitRowDeleting" msprop:Generator_RowChangingName="fraisforfaitRowChanging" msprop:Generator_RowEvHandlerName="fraisforfaitRowChangeEventHandler" msprop:Generator_RowDeletedName="fraisforfaitRowDeleted" msprop:Generator_UserTableName="fraisforfait" msprop:Generator_RowChangedName="fraisforfaitRowChanged" msprop:Generator_RowEvArgName="fraisforfaitRowChangeEvent" msprop:Generator_RowClassName="fraisforfaitRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lignefraisforfait" msprop:Generator_TableClassName="lignefraisforfaitDataTable" msprop:Generator_TableVarName="tablelignefraisforfait" msprop:Generator_TablePropName="lignefraisforfait" msprop:Generator_RowDeletingName="lignefraisforfaitRowDeleting" msprop:Generator_RowChangingName="lignefraisforfaitRowChanging" msprop:Generator_RowEvHandlerName="lignefraisforfaitRowChangeEventHandler" msprop:Generator_RowDeletedName="lignefraisforfaitRowDeleted" msprop:Generator_UserTableName="lignefraisforfait" msprop:Generator_RowChangedName="lignefraisforfaitRowChanged" msprop:Generator_RowEvArgName="lignefraisforfaitRowChangeEvent" msprop:Generator_RowClassName="lignefraisforfaitRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="visiteur" msprop:Generator_TableClassName="visiteurDataTable" msprop:Generator_TableVarName="tablevisiteur" msprop:Generator_TablePropName="visiteur" msprop:Generator_RowDeletingName="visiteurRowDeleting" msprop:Generator_RowChangingName="visiteurRowChanging" msprop:Generator_RowEvHandlerName="visiteurRowChangeEventHandler" msprop:Generator_RowDeletedName="visiteurRowDeleted" msprop:Generator_UserTableName="visiteur" msprop:Generator_RowChangedName="visiteurRowChanged" msprop:Generator_RowEvArgName="visiteurRowChangeEvent" msprop:Generator_RowClassName="visiteurRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
